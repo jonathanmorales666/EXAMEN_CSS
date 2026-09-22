@@ -1,0 +1,27 @@
+<!DOCTYPE html><!-- Tipo de documento-->
+<!-- Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10 -->
+<html lang="en"><!-- Idioma del documento-->
+<head><!-- Encabezado-->
+    <meta charset="UTF-8"><!-- Permite la Ñ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Tamaño adaptable-->
+    <title>Formulario 7</title><!-- Título-->
+</head><!-- Cerramos el encabezado-->
+<body><!-- Cuerpo del documento-->
+    <form action="registrardatos.php" method="post"><!-- Formulario-->
+        Seleccione uno o varios colores<!-- Imprime-->
+        (Presione Ctrl para seleccionar varios colores)<br><!-- Salto de linea-->
+        <select name="colores[]" size="4" multiple><!-- Selección multiple hasta 4-->
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+            <option value="4">Amarillo</option>
+            <option value="5">Blanco</option>
+            <option value="6">Negro</option>
+            <option value="7">Naranja</option>
+            <option value="8">Violeta</option>
+        </select><!-- Cerramos la caja de selección-->
+        <br><!-- Salto de linea-->
+        <input type="submit" value="Enviar"><!-- Botón con método enviar-->
+    </form><!-- Cerramos formuario-->
+</body><!-- Cerramos el cuerpo-->
+</html><!-- Cerramos el documento-->
