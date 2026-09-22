@@ -1,4 +1,6 @@
+/* Llamamos a la clase caja2*/
 .caja2{
+    /* Cambiamos el color de fondo y agregamos borde*/
     background-color: rgb(228, 212, 158);
     border: 2px solid rgb(151, 113, 54);
     

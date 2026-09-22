@@ -1,4 +1,10 @@
+/* Llamamos al bloque pre */
 .codigofuente {
+    /*Cambiamos el tamaño de fuente
+    el color de fondo, tamaño de borde
+    tipo de borde
+    color de borde
+    espacio entre elementos*/
     font-size: 12px;
     background-color: #ffffcc;
     border-width: 2px;

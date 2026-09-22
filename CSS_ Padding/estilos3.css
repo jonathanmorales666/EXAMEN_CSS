@@ -1,24 +1,26 @@
+/* Llamamos a la clase tarjeta*/
 .tarjeta{
+    /* Cambiamos el color, agregamos borde y cambiamos tamaño de borde*/
     background-color: rgb(216, 193, 206);
     border: 2px solid rgb(144, 113, 156);
     border-radius: 10px;
     /* Agrega 15px de espacio interno entre el borde y el contenido*/
     padding: 15px;
 }
-
+/* llamamos a la clase tarjeta, especificamente el título de clase #2*/
 .tarjeta h2{
     /* Define los márgenes del título*/
     /* Arriba: 0 - Derecha: 0 - Abajo: 40px - Izquiera: 0*/
     margin: 0 0 40px 0;
 }
-
+/* Llamos a los párrafos de la clase tarjeta*/
 .tarjeta p{
     /* Elimina el márgen predeterminado que coloca el navegador*/
     margin: 0;
 
     /* El Padding agrega 10 pixeles de espacio interno al rededor del texto*/
     padding: 20px;
-
+    /* Cambiamos el color de fondo y el radio del borde*/
     background-color: rgb(143, 127, 141);
     border-radius:  10px;
 }

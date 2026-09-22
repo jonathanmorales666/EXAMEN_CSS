@@ -1,5 +1,5 @@
 .caja2{
-
+    /* Centramos el texto, cambiamos el color de fondo y agregamos borde solido colorido*/
     text-align: center;
     background-color: rgb(143, 153, 153);
     border: 2px solid rgb(184, 189, 175);
@@ -13,5 +13,6 @@
     /* Agrega 10 pixeles de margen externo en la parte de la derecha */
     margin-left: 60px;
 
+    /* Agregamos espacio general desde adentro*/
     padding: 15px; 
 }

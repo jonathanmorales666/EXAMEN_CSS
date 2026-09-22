@@ -1,4 +1,6 @@
+/* Llamamos a la clase caja*/
 .caja{
+    /* Alineamos el texto, cambiamos el color de fongo, agregamos borde solido y color*/
     text-align: center;
     background-color: rgb(147, 172, 118);
     border: 2px solid rgb(150, 197, 189);
