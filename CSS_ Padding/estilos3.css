@@ -1,0 +1,24 @@
+.tarjeta{
+    background-color: rgb(216, 193, 206);
+    border: 2px solid rgb(144, 113, 156);
+    border-radius: 10px;
+    /* Agrega 15px de espacio interno entre el borde y el contenido*/
+    padding: 15px;
+}
+
+.tarjeta h2{
+    /* Define los márgenes del título*/
+    /* Arriba: 0 - Derecha: 0 - Abajo: 40px - Izquiera: 0*/
+    margin: 0 0 40px 0;
+}
+
+.tarjeta p{
+    /* Elimina el márgen predeterminado que coloca el navegador*/
+    margin: 0;
+
+    /* El Padding agrega 10 pixeles de espacio interno al rededor del texto*/
+    padding: 20px;
+
+    background-color: rgb(143, 127, 141);
+    border-radius:  10px;
+}

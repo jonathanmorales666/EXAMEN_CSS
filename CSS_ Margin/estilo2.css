@@ -1,0 +1,17 @@
+.caja2{
+
+    text-align: center;
+    background-color: rgb(143, 153, 153);
+    border: 2px solid rgb(184, 189, 175);
+
+    /* Agrega 10 pixeles de margen externo en la parte superior*/
+    margin-top: 10px;
+    /* Agrega 10 pixeles de margen externo en la parte de la izquierda */
+    margin-right: 40px;
+    /* Agrega 10 pixeles de margen externo en la parte infierno */
+    margin-bottom: 20px;
+    /* Agrega 10 pixeles de margen externo en la parte de la derecha */
+    margin-left: 60px;
+
+    padding: 15px; 
+}

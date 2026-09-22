@@ -1,0 +1,35 @@
+<!DOCTYPE html><!-- Tipo de documento-->
+<html lang="en"><!-- Idioma del documento-->
+<head><!-- Encabezado-->
+    <meta charset="UTF-8"><!-- Permite la Ñ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Tamaño adaptable-->
+    <title>HTML con etiqueta "pre"</title><!-- Título-->
+    <link rel="stylesheet" href="estilos4.css"><!-- Conexión a los estilos-->
+</head><!-- Cerramos el encabezado-->
+<body><!-- Cuerpo del documento-->
+    <pre class="codigofuente">
+        public class Rectangulo{
+            //Atributos
+            int alto;
+            int ancho;
+            boolean relleno;
+            // Métodos
+            public int devolverArea(){
+                return alto * ancho;
+            }
+            public void rellenar(boolean r){
+                relleno = r;
+            }
+            public void cambiarTamaño(int an, int al){
+                ancho = an;
+                alto = al;
+            }
+            public Rectangulo(){ // Constructor
+                alto = 10;
+                ancho = 10;
+                relleno = false;
+            }
+        } // Fin de la clase rectangulo
+    </pre>
+</body><!-- Cerramos el cuerpo-->
+</html><!-- Cerramos el documento-->

@@ -1,0 +1,22 @@
+.titulo{
+    background-color: #ffffcc;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+
+    border-top-color: rgb(228, 219, 192);
+    border-right-color: rgb(228, 219, 192);
+    border-bottom-color: rgb(228, 219, 192);
+    border-left-color: rgb(228, 219, 192);
+
+}

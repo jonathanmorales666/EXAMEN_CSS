@@ -1,0 +1,11 @@
+.caja{
+    text-align: center;
+    background-color: rgb(147, 172, 118);
+    border: 2px solid rgb(150, 197, 189);
+    /* Agrega un margen externo de
+    30 pixeles en los cuatro lados*/
+    margin: 30px;
+    /* Agrega 15 pixeles de espacio
+    interno entre contenido y borde*/
+    padding: 15px;
+}

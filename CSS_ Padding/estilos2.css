@@ -1,0 +1,16 @@
+.caja2{
+    background-color: rgb(228, 212, 158);
+    border: 2px solid rgb(151, 113, 54);
+    
+    /* Agrega 10 pixeles de espacio interno de arriba*/
+    padding-top: 10px;
+    
+    /* Agrega 10 pixeles de espacio interno desde la derecha*/
+    padding-top: 30px;
+
+    /* Agrega 10 pixeles de espacio interno del fondo*/
+    padding-bottom: 25px;
+
+    /* Agrega 10 pixeles de espacio interno desde la izquierda*/
+    padding-left: 40px;
+}
